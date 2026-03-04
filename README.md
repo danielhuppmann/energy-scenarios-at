@@ -13,6 +13,12 @@ This repository is licensed under the [MIT License](LICENSE).
 This is a workflow repository for definitions and processing related to the development and analysis
 of Austrian energy and emissions scenarios.
 
+
+> [!TIP]
+> For *users not comfortable working with GitHub repositories and yaml files*,
+> the definitions for this project are available for download as an xlsx spreadsheet
+> at https://files.ece.iiasa.ac.at/energy-scenarios-at/energy-scenarios-at-template.xlsx.
+
 ### Project nomenclature
 
 The folder `definitions` can contain the project nomenclature, i.e., list of allowed
