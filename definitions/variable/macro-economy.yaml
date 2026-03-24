@@ -1,0 +1,8 @@
+- GDP:
+    description: Gross domestic product
+    unit: million EUR_2018/yr
+    lower_bound: 0
+- Labor Force|Employed:
+    description: Working-age inhabitants which are employed
+    unit: million
+    lower_bound: 0
