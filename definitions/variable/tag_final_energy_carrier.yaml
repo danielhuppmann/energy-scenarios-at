@@ -8,7 +8,7 @@
     - Electricity:
         description: electricity
     - Biomass:
-        description: biomass including biomethane
+        description: biomass
     - Biofuels:
         description: liquid fuels including bioethanol, biodiesel,
           other biogenic liquids and spent lye
