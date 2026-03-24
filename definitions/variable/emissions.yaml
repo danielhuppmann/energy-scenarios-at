@@ -64,7 +64,7 @@
     description: Net emissions of {Species} from motorcylces
     unit: "{Species}"
     crf: 1.A.3.b.4
-- Emissions|{Species}|Energy|Demand|Transportation|Railways:
+- Emissions|{Species}|Energy|Demand|Transportation|Rail:
     description: Net emissions of {Species} from railways
     unit: "{Species}"
     crf: 1.A.3.c
