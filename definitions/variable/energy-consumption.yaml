@@ -1,9 +1,10 @@
 - Final Energy:
     description: Final energy consumption by all end-use sectors and all fuels
+      including ambient heat, geothermal and solar thermal energy,
       excluding transmission/distribution losses
     unit: TJ
 - Final Energy [by Carrier]|{Final Energy Carrier}:
-    description: Energy consumption of {Final Energy Carrier}
+    description: Consumption of {Final Energy Carrier}
       excluding transmission/distribution losses
     unit: TJ
 - Final Energy [by Sector]|{Sector}:
@@ -15,3 +16,24 @@
       excluding transmission/distribution losses
     unit: TJ
 
+# aggregate categories where detailed reporting is not possible
+- Final Energy [by Carrier]|Hydrogen and E-Fuels:
+    description: Consumption of synthetic liquid fuels and hydrogen from renewable
+      sources
+    unit: TJ
+    notes: This variable should only be used if separate reporting of hydrogen and
+      e-fuels is not possible.
+- Final Energy [by Carrier]|District Heat and Ambient Heat:
+    description: Consumption of heat delivered from district heating grids
+      and ambient heat using heat pumps, geothermal and solar thermal energy
+    unit: TJ
+    notes: This variable should only be used if separate reporting of district heat and
+      ambient heat is not possible.
+- Final Energy [by Sector]|Residential and Commercial|Residential:
+    description: Energy consumption in the residential sector (buildings and households)
+      excluding transmission/distribution losses
+    unit: TJ
+- Final Energy [by Sector]|Residential and Commercial|Commercial and Institutional:
+    description: Energy consumption in the commercial and institutional sector (services)
+      excluding transmission/distribution losses
+    unit: TJ
