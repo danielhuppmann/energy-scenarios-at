@@ -3,6 +3,14 @@ import pandas as pd
 import pyam
 
 
+def _is_year_column(x, col_suffix):
+    if x.endswith(col_suffix):
+        return True
+    try:
+        return x == str(int(x))
+    except TypeError:
+        return False
+
 def read_uba_file(
     file,
     sheet_name,
@@ -25,7 +33,7 @@ def read_uba_file(
             [
                 (col, int(col.replace(col_suffix, "")))
                 for col in data.columns
-                if pyam.utils.is_str(col) and col.endswith(col_suffix)
+                if pyam.utils.is_str(col) and _is_year_column(col, col_suffix)
             ]
         )
         data.rename(columns=col_rename_mapping, inplace=True)

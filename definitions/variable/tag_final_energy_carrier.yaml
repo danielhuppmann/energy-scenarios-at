@@ -35,6 +35,10 @@
         description: other sources or carriers
 
 # aggregate categories where detailed reporting is not possible
+    - Hydrogen and E-Fuels:
+        description: synthetic liquid fuels and hydrogen from renewable sources
+        note: This variable should only be used if separate reporting of hydrogen and
+          e-fuels is not possible.
     - Renewables:
         description: renewables including biomass and green hydrogen
         note: This variable should only be used if separate reporting of renewables is
@@ -43,3 +47,8 @@
         description: renewables including biomass, green hydrogen and ambient heat
         note: This variable should only be used if separate reporting of renewables is
           not possible.
+    - District Heat and Ambient Heat:
+        description: heat delivered from district heating grids and ambient heat using
+          heat pumps, geothermal and solar thermal energy
+        note: This variable should only be used if separate reporting of district heat
+          and ambient heat is not possible.
