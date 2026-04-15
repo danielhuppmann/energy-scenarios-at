@@ -1,0 +1,7 @@
+- Area by Density:
+    - Densely Populated (DENS):
+        description: densely populated areas
+    - Intermediate Density (INMD):
+        description: intermediate density areas
+    - Thinly Populated (THIN):
+        description: thinly populated areas

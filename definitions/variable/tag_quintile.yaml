@@ -1,0 +1,11 @@
+- Quintile:
+    - 1st Quintile:
+        description: the 20% of the population with the lowest household income
+    - 2nd Quintile:
+        description: the second lowest 20% of the population in terms of household income
+    - 3rd Quintile:
+        description: the middle 20% of the population in terms of household income
+    - 4th Quintile:
+        description: the second highest 20% of the population in terms of household income
+    - 5th Quintile:
+        description: the 20% of the population with the highest household income

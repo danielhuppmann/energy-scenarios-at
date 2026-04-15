@@ -6,3 +6,12 @@
     description: Working-age inhabitants which are employed
     unit: million
     lower_bound: 0
+
+- Household Consumption|{Area by Density}|{Quintile}:
+    description: Household consumption in {Area by Density} of {Quintile}
+    unit: million EUR_2018/yr
+    lower_bound: 0
+- Household Income|{Area by Density}|{Quintile}:
+    description: Household consumption in {Area by Density} of {Quintile}
+    unit: million EUR_2018/yr
+    lower_bound: 0
