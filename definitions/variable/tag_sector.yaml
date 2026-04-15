@@ -5,5 +5,11 @@
         description: industrial sector excluding non-energy use (e.g.feedstocks)
     - Residential and Commercial:
         description: commercial (services) and residential sector (buildings and households)
+    - Residential and Commercial|Residential:
+        description: residential sector (buildings and households)
+    - Residential and Commercial|Commercial and Institutional:
+        description: commercial and institutional sector (services)
     - Transportation:
         description: transportation sector
+    - Transportation|Road:
+        description: road-based transportation

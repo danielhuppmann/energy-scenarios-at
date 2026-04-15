@@ -39,11 +39,61 @@
       from international bunker fuels and excluding pipeline emissions
     unit: "{Species}"
     crf: 1.A.3
+- Emissions|{Species}|Energy|Demand|Transportation|Domestic Aviation:
+    description: Net emissions of {Species} from domestic aviation excluding
+      international bunker fuels
+    unit: "{Species}"
+    crf: 1.A.3.a
+- Emissions|{Species}|Energy|Demand|Transportation|Road:
+    description: Net emissions of {Species} from road-based transportation
+    unit: "{Species}"
+    crf: 1.A.3.b
+- Emissions|{Species}|Energy|Demand|Transportation|Road|Cars:
+    description: Net emissions of {Species} from cars
+    unit: "{Species}"
+    crf: 1.A.3.b.1
+- Emissions|{Species}|Energy|Demand|Transportation|Road|Light-Duty Vehicles:
+    description: Net emissions of {Species} from light-duty vehicles
+    unit: "{Species}"
+    crf: 1.A.3.b.2
+- Emissions|{Species}|Energy|Demand|Transportation|Road|Heavy-Duty Vehicles:
+    description: Net emissions of {Species} from heavy-duty vehicles
+    unit: "{Species}"
+    crf: 1.A.3.b.3
+- Emissions|{Species}|Energy|Demand|Transportation|Road|Motorcycles:
+    description: Net emissions of {Species} from motorcylces
+    unit: "{Species}"
+    crf: 1.A.3.b.4
+- Emissions|{Species}|Energy|Demand|Transportation|Rail:
+    description: Net emissions of {Species} from railways
+    unit: "{Species}"
+    crf: 1.A.3.c
+- Emissions|{Species}|Energy|Demand|Transportation|Domestic Navigation:
+    description: Net emissions of {Species} from domestic navigation
+    unit: "{Species}"
+    crf: 1.A.3.d
+- Emissions|{Species}|Energy|Demand|Transportation|Other:
+    description: Net emissions of {Species} from other means of transportation including
+      pipelines and airport ground operations
+    unit: "{Species}"
+    crf: 1.A.3.e
 - Emissions|{Species}|Energy|Demand|Residential and Commercial:
-    description: Net emissions of {Species} from residential, commercial and
-      institutional sectors
+    description: Net emissions of {Species} from residential and commercial sectors
+      including agriculture, forestry and fishing
     unit: "{Species}"
     crf: 1.A.4
+- Emissions|{Species}|Energy|Demand|Residential and Commercial|Commercial and Institutional:
+    description: Net emissions of {Species} from commercial and institutional sectors
+    unit: "{Species}"
+    crf: 1.A.4.a
+- Emissions|{Species}|Energy|Demand|Residential and Commercial|Residential:
+    description: Net emissions of {Species} from households
+    unit: "{Species}"
+    crf: 1.A.4.b
+- Emissions|{Species}|Energy|Demand|Residential and Commercial|Agriculture, Forestry and Fishing:
+    description: Net emissions of {Species} from agriculture, forestry and fishing
+    unit: "{Species}"
+    crf: 1.A.4.c
 - Emissions|{Species}|Energy|Demand|Other:
     description: Net emissions of {Species} in other demand sectors
     unit: "{Species}"

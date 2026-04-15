@@ -15,13 +15,3 @@
     description: Energy consumption of {Final Energy Carrier} by the {Sector}
       excluding transmission/distribution losses
     unit: TJ
-
-# aggregate categories where detailed reporting is not possible
-- Final Energy [by Sector]|Residential and Commercial|Residential:
-    description: Energy consumption in the residential sector (buildings and households)
-      excluding transmission/distribution losses
-    unit: TJ
-- Final Energy [by Sector]|Residential and Commercial|Commercial and Institutional:
-    description: Energy consumption in the commercial and institutional sector (services)
-      excluding transmission/distribution losses
-    unit: TJ
